@@ -72,7 +72,7 @@ function rewriteAssets(html: string) {
     .replace(/\/assets\/bonus_(\d)\.webp/g, (_m, n) => bonusImgs[(Number(n) - 1) % bonusImgs.length] ?? bonusImgs[0] ?? "")
     .replace(
       /\/assets\/depoimento_(\w+)_produto\.webp/g,
-      (_m, name: string) => depoimentos[name]?.produto ?? assetSrc(depoimentoVetEstudos1),
+      (_m, name: string) => depoimentos[name]?.produto ?? assetSrc(depoMarianaAsset.url),
     )
     .replace(
       /\/assets\/depoimento_(\w+)_avatar\.webp/g,
