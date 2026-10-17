@@ -31,7 +31,7 @@ import bonusBiblia2 from "@/assets/bonus-biblia-2.png.asset.json";
 import bonusBiblia3 from "@/assets/bonus-biblia-3.png.asset.json";
 import bonusBiblia4 from "@/assets/bonus-biblia-4.png.asset.json";
 import bonusBiblia5 from "@/assets/bonus-biblia-5.png.asset.json";
-import bonusDir5 from "@/assets/bonus-dir-5.jpg";
+import bonusBiblia6 from "@/assets/bonus-biblia-6.png.asset.json";
 import avatar1 from "@/assets/avatar-1.jpg";
 import avatar2 from "@/assets/avatar-2.jpg";
 import avatar3 from "@/assets/avatar-3.jpg";
@@ -41,7 +41,7 @@ import avatar5 from "@/assets/avatar-5.jpg";
 const assetSrc = (src: string) => src;
 
 const mapas = [prevNeemias, prevJosue, prevDebora, prevSamuel, prevSalomao];
-const bonusImgs = [bonusBiblia1.url, bonusBiblia2.url, bonusBiblia3.url, bonusBiblia4.url, bonusBiblia5.url, bonusDir5];
+const bonusImgs = [bonusBiblia1.url, bonusBiblia2.url, bonusBiblia3.url, bonusBiblia4.url, bonusBiblia5.url, bonusBiblia6.url];
 
 const avatars = [avatar1, avatar2, avatar3, avatar4, avatar5];
 
