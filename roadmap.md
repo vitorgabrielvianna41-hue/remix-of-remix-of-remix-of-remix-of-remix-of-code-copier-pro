@@ -6,4 +6,5 @@
 - [x] Adaptar textos da oferta para 300 Mapas Mentais da Bíblia Evangélica e conferir a página.
 - [x] Trocar o mockup e as cinco prévias pelos anexos bíblicos enviados e conferir a exibição.
 - [x] Trocar as capas dos bônus 1 a 5 pelos novos anexos bíblicos.
-- [ ] Trocar a capa do bônus 6 — aguardando o envio da imagem pelo usuário.
+- [x] Trocar a capa do bônus 6 pela nova imagem enviada pelo usuário.
+- [x] Atualizar o preço da oferta para R$ 15,90 e o link de checkout para o novo link Wiapy.
