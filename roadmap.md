@@ -5,3 +5,5 @@
 - [x] Adaptar página para Direito: textos + imagens (mockup, 6 mapas, 5 bônus)
 - [x] Adaptar textos da oferta para 300 Mapas Mentais da Bíblia Evangélica e conferir a página.
 - [x] Trocar o mockup e as cinco prévias pelos anexos bíblicos enviados e conferir a exibição.
+- [x] Trocar as capas dos bônus 1 a 5 pelos novos anexos bíblicos.
+- [ ] Trocar a capa do bônus 6 — aguardando o envio da imagem pelo usuário.

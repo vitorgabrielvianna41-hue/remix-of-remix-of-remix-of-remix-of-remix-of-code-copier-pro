@@ -26,10 +26,11 @@ const prevJosue = prevJosueAsset.url;
 const prevDebora = prevDeboraAsset.url;
 const prevSamuel = prevSamuelAsset.url;
 const prevSalomao = prevSalomaoAsset.url;
-import bonusDir1 from "@/assets/bonus-dir-1.jpg";
-import bonusDir2 from "@/assets/bonus-dir-2.jpg";
-import bonusDir3 from "@/assets/bonus-dir-3.jpg";
-import bonusDir4 from "@/assets/bonus-dir-4.jpg";
+import bonusBiblia1 from "@/assets/bonus-biblia-1.png.asset.json";
+import bonusBiblia2 from "@/assets/bonus-biblia-2.png.asset.json";
+import bonusBiblia3 from "@/assets/bonus-biblia-3.png.asset.json";
+import bonusBiblia4 from "@/assets/bonus-biblia-4.png.asset.json";
+import bonusBiblia5 from "@/assets/bonus-biblia-5.png.asset.json";
 import bonusDir5 from "@/assets/bonus-dir-5.jpg";
 import avatar1 from "@/assets/avatar-1.jpg";
 import avatar2 from "@/assets/avatar-2.jpg";
@@ -40,7 +41,7 @@ import avatar5 from "@/assets/avatar-5.jpg";
 const assetSrc = (src: string) => src;
 
 const mapas = [prevNeemias, prevJosue, prevDebora, prevSamuel, prevSalomao];
-const bonusImgs = [bonusDir1, bonusDir2, bonusDir3, bonusDir4, bonusDir5, bonusDir5];
+const bonusImgs = [bonusBiblia1.url, bonusBiblia2.url, bonusBiblia3.url, bonusBiblia4.url, bonusBiblia5.url, bonusDir5];
 
 const avatars = [avatar1, avatar2, avatar3, avatar4, avatar5];
 
@@ -71,7 +72,7 @@ function rewriteAssets(html: string) {
     .replace(/\/assets\/bonus_(\d)\.webp/g, (_m, n) => bonusImgs[(Number(n) - 1) % bonusImgs.length] ?? bonusImgs[0] ?? "")
     .replace(
       /\/assets\/depoimento_(\w+)_produto\.webp/g,
-      (_m, name: string) => depoimentos[name]?.produto ?? assetSrc(depoimentoVetEstudos1),
+      (_m, name: string) => depoimentos[name]?.produto ?? assetSrc(depoMarianaAsset.url),
     )
     .replace(
       /\/assets\/depoimento_(\w+)_avatar\.webp/g,
