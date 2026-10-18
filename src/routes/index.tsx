@@ -104,7 +104,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "300 Mapas Mentais da Bíblia Evangélica para estudar e revisar os principais ensinamentos bíblicos de forma visual e organizada.",
+          "300 Mapas Mentais da Bíblia Evangélica para estudar e revisar os principais ensinamentos bíblicos.",
       },
       { property: "og:title", content: "300 Mapas Mentais da Bíblia Evangélica" },
       {
