@@ -197,7 +197,7 @@ function Index() {
 
           <div style={{ textAlign: "center", marginTop: 40 }}>
             <a href="#value-stack-section" className="btn-cta">
-              Quero Garantir Agora
+              Quero acessar os 300 mapas
             </a>
           </div>
         </div>
