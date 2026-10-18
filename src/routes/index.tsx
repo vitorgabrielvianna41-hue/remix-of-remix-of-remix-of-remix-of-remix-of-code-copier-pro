@@ -177,7 +177,7 @@ function Index() {
         <div className="container">
           <span className="section-label">O Material por Dentro</span>
           <h2 className="section-title" style={{ color: "#ffffff" }}>
-            Veja como o material é por dentro
+            Veja como o material pode apoiar seu estudo
           </h2>
           <p className="section-subtitle">
             Mapas organizados por temas bíblicos para apoiar seus estudos e revisões
